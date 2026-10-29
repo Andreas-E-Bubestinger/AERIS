@@ -140,23 +140,59 @@ Where a result remains unvalidated, provisional, architecture-level, or experime
 
 ## Research Outputs in Preparation
 
-Additional AERIS-related research and technical validation work is ongoing.
+Additional AERIS-related research, technical validation work, and long-form research writing are ongoing.
 
 Research areas under active investigation include:
 
-- functional continuity
-- cross-model evaluation
-- causal architecture testing
-- memory and provenance
-- bounded agency and governance
-- reproducible system reconstruction
-- adaptive human–AI interaction
-- user-model validation
-- multimodal presence and embodiment
+functional continuity
 
-Items are added to this page when a stable public publication, repository record, DOI, or comparable public research reference exists.
+cross-model evaluation
+
+causal architecture testing
+
+memory and provenance
+
+bounded agency and governance
+
+reproducible system reconstruction
+
+adaptive human–AI interaction
+
+user-model validation
+
+multimodal presence and embodiment
+
+Long-Form Research in Preparation
+
+A three-volume long-form AERIS research work is currently in preparation under the collective title:
+
+ÆRIS ANIMA
+
+The current volumes are:
+
+Band I — CORAM
+
+Band II — FIERI
+
+Band III — ORDO
+
+The three volumes are currently unpublished and remain works in preparation.
+
+They are associated with the broader AERIS research programme and address long-form conceptual, architectural, governance, human–AI interaction, continuity, agency, embodiment, and societal questions surrounding the development and coexistence of humans and advanced AI systems.
+
+The titles and current volume structure are documented here for research continuity and public project provenance.
+
+They should not be interpreted as formally published books, final editions, or citable publications.
+
+Bibliographic details, final publication status, ISBNs, DOIs, repository records, or other persistent identifiers will be added if and when stable public records become available.
+
+Publication Boundary
+
+Completed research outputs are added to this page when a stable public publication, repository record, DOI, or comparable public research reference exists.
 
 Planned or unpublished work is not presented here as a completed publication.
+
+Research areas and works in preparation may nevertheless be listed when doing so helps document the continuing scope and development of the AERIS research programme.
 
 ---
 
