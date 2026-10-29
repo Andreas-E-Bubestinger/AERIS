@@ -10,6 +10,15 @@ AERIS is an independent research and development project focused on artificial i
 
 The project investigates how model-external architectures can support persistent system context, controlled continuity, evidence-aware operation, governance boundaries, reproducible validation, and responsible interaction across changing AI models and runtime environments.
 
+## Project Documentation
+
+For additional public information about AERIS:
+
+- [Project Identity](PROJECT_IDENTITY.md) — canonical project identity, authorship, independence, and public/private boundaries.
+- [Public Research Status](PUBLIC_RESEARCH_STATUS.md) — current research scope, Web / Cloud and Portable development lines, validation status, and claim boundaries.
+- [Publications and Research Outputs](PUBLICATIONS.md) — selected publications and public research outputs associated with the AERIS research programme.
+- [Provenance Ledger](PROVENANCE_LEDGER.md) — documented AERIS development lineage, selected milestones, and cryptographic provenance commitments.
+
 ## Research Areas
 
 Current research areas include:
