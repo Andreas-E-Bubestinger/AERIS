@@ -6,7 +6,9 @@ AERIS (ÆRIS) is an independent research and development project focused on arti
 
 The project combines conceptual research, practical system engineering, controlled experimentation, and evidence-oriented validation.
 
-AERIS is developed as a model-external systems architecture. It does not replace the underlying foundation model. Instead, the project investigates how additional system architecture around changing AI models can support continuity, memory, provenance, governance, validation, interaction, tool use, and controlled system behaviour.
+AERIS is developed as a surrounding systems architecture intended to operate alongside supported AI models rather than as a replacement foundation model.
+
+The project investigates how additional system architecture around changing AI models can support continuity, memory, provenance, governance, validation, interaction, controlled tool use, and structured system behaviour.
 
 AERIS is one research project with multiple technical development lines.
 
@@ -36,11 +38,13 @@ Research areas include:
 - explicit separation between verified behaviour and unsupported interpretation
 - portability across compatible AI environments
 
-A major objective of this line is to determine how much of the AERIS architecture can be reconstructed reliably from controlled, versioned, and verifiable artefacts rather than depending on an undocumented conversational state.
+A major objective of this line is to determine how much of the AERIS architecture can be reconstructed reliably from controlled, versioned, and verifiable artefacts rather than depending on undocumented conversational state.
 
 The current Web / Cloud research line includes a formally qualified PRE-RC1 bootstrap and reproducibility foundation.
 
-This status applies only to the corresponding Web / Cloud architecture and does not automatically establish the status of AERIS Portable, embodiment, autonomous runtime research, or other technical lines.
+This status applies specifically to the corresponding Web / Cloud architecture.
+
+It does not automatically establish the status of AERIS Portable, embodiment research, autonomous runtime research, or other technical lines.
 
 ---
 
@@ -48,30 +52,30 @@ This status applies only to the corresponding Web / Cloud architecture and does 
 
 AERIS Portable is the local runtime and experimental systems platform of the AERIS project.
 
-It extends the research beyond conventional conversational interaction and provides an environment for investigating how a model-external AI architecture can interact with local state, memory, files, projects, tools, interfaces, and multimodal systems under controlled conditions.
+It extends the research beyond conventional conversational interaction and provides an environment for investigating how a surrounding AI systems architecture can interact with local state, memory, files, projects, tools, interfaces, and multimodal systems under controlled conditions.
 
-Research and development areas include:
+Current research and development areas include:
 
 - local agent runtime operation
 - dialogue and interaction control
-- persistent memory and state handling
+- persistent memory infrastructure, state handling, and retrieval research
 - project and file interaction
 - artefact creation and verification
 - controlled tool use
 - browser-based user interfaces
 - speech input and output
 - multimodal presence
-- task and action management
+- task, worker, and action-management research
 - bounded initiative
 - curiosity and unresolved-question tracking
 - responsibility and arbitration research
-- runtime integrity and recovery
+- runtime integrity, resilience, and recovery research
 - storage and evidence management
 - controlled self-extension research
 - cognitive heartbeat research
 - embodiment and virtual-environment research
 
-AERIS Portable contains both mature technical foundations and experimental or planned research components.
+AERIS Portable contains a mixture of established technical foundations, validated runtime components, experimental implementations, architecture baselines, and planned research extensions.
 
 The existence of an architectural component or research baseline does not imply that the corresponding capability is fully autonomous, continuously active, production-ready, or scientifically validated.
 
@@ -92,6 +96,10 @@ Research includes:
 - continuity across model changes
 - integrity of identity-related system constraints
 - detection and limitation of unintended state drift
+
+Some continuity-related mechanisms and retrieval pathways are implemented and experimentally testable.
+
+However, robust continuity is not treated as a single project-wide binary property. Different continuity paths may have different evidence levels and unresolved integration limits.
 
 Functional continuity is treated as a technical and research concept.
 
@@ -117,7 +125,9 @@ Research priorities include:
 - explicit handling of uncertainty
 - controlled long-term context
 
-The project therefore treats memory not merely as accumulated text, but as part of a broader provenance and state-management problem.
+AERIS Portable includes persistent memory and retrieval infrastructure, while the reliability and causal use of different memory pathways remain subject to path-specific validation.
+
+The project therefore treats memory not merely as accumulated text, but as part of a broader provenance, retrieval, authority, and state-management problem.
 
 ---
 
@@ -125,7 +135,7 @@ The project therefore treats memory not merely as accumulated text, but as part 
 
 AERIS Portable investigates governed interaction with local projects, files, artefacts, and tools.
 
-This research includes controlled:
+Implemented and experimental work includes controlled forms of:
 
 - reading
 - analysis
@@ -135,11 +145,13 @@ This research includes controlled:
 - storage
 - project-oriented interaction
 
-AERIS is being developed toward a workspace model in which interaction with project material can remain connected to the relevant project context rather than being limited to isolated chat exchanges.
+AERIS includes a browser-based project interaction path and has demonstrated controlled file operations through the local runtime.
 
-Different artefact types may require different processing, validation, and write paths.
+Further workspace integration and support for different structured artefact types remain active development areas.
 
 The long-term objective is not unrestricted file manipulation, but controlled and verifiable interaction with real project material.
+
+Different artefact types may require different processing, validation, and write paths rather than unrestricted generic modification.
 
 ---
 
@@ -162,7 +174,9 @@ Research areas include:
 - traceable system decisions
 - provisional rather than unconditional autonomy
 
-Long-running or autonomous behaviour is treated as a research subject rather than an assumed property of the system.
+Some foundations for worker execution, needs-related processing, curiosity, and controlled initiative exist within AERIS Portable.
+
+Broader responsibility gating, arbitration, scheduling, autonomous tool use, and extended autonomous operation remain research and development areas rather than completed project-wide capabilities.
 
 AERIS does not currently claim unrestricted autonomous agency.
 
@@ -182,9 +196,9 @@ The purpose of this research is to investigate whether controlled periodic proce
 - bounded initiative
 - controlled continuation of previously established work
 
-Heartbeat-related control infrastructure exists within the project.
+Heartbeat-related control infrastructure and supporting runtime foundations exist within the project.
 
-However, this does not mean that AERIS currently operates as a continuously autonomous system.
+However, AERIS does not currently claim continuously active autonomous cognitive operation.
 
 Persistent autonomous operation remains subject to explicit technical, governance, safety, resource, and validation requirements.
 
@@ -194,7 +208,9 @@ Persistent autonomous operation remains subject to explicit technical, governanc
 
 AERIS investigates mechanisms by which unresolved questions, internally represented needs, tasks, and system conditions may influence future processing.
 
-These mechanisms are studied under explicit control boundaries.
+A persistent open-question and revisit pathway has been implemented and tested within AERIS Portable.
+
+Broader agency selection, responsibility arbitration, and autonomous action based on these mechanisms remain controlled research areas.
 
 Research questions include:
 
@@ -225,6 +241,10 @@ Current and planned research areas include:
 - continuity of interaction
 - human control over system initiative
 
+Speech infrastructure and visual-presence components are already part of the Portable development line.
+
+Other interaction capabilities remain at differing experimental and validation stages.
+
 The project aims to make increasingly complex AI-system behaviour understandable and attributable while exploring richer forms of interaction.
 
 ---
@@ -235,7 +255,7 @@ AERIS includes a substantial experimental presence and embodiment research line.
 
 The purpose of this work is to investigate how a persistent artificial system representation can interact through visual, spatial, motion, speech, and state-linked channels.
 
-Research areas include:
+Research and active development areas include:
 
 - persistent visual presence
 - 2D and 3D representation
@@ -245,13 +265,17 @@ Research areas include:
 - gesture and posture
 - motion and locomotion
 - motion ingestion and validation
-- virtual environments
+- virtual-environment research
 - interaction with semantically meaningful virtual objects
-- technical proprioception
+- technical proprioception research
 - controlled visual feedback
 - integration between system state and embodied interaction
 
-AERIS also investigates how embodiment-related actions should remain mediated through explicit control and arbitration layers rather than being driven directly by higher-level needs or autonomous processes.
+The project already contains functional visual-presence infrastructure and substantial experimental 3D, rigging, rendering, and motion work.
+
+Individual embodiment and motion components have separate validation states. A successful build or offline validation does not automatically imply browser acceptance, live promotion, or complete runtime integration.
+
+AERIS also investigates how future embodiment-related actions should remain mediated through explicit control and arbitration layers rather than being driven directly by higher-level needs or autonomous processes.
 
 Embodiment is treated as an interface and systems research problem.
 
@@ -274,13 +298,15 @@ These may include:
 - system state
 - environment feedback
 
-The goal is to study how these channels can contribute to a coherent system interaction without collapsing their different evidentiary meanings into a single unsupported interpretation.
+Different channels are implemented or researched at different maturity levels.
+
+The goal is to study how these channels can contribute to coherent system interaction without collapsing their different technical and evidentiary meanings into a single unsupported interpretation.
 
 ---
 
 ## Runtime and Environment Awareness
 
-AERIS Portable investigates how an AI system can operate with structured awareness of the technical environment in which it is running.
+AERIS Portable investigates how an AI system can operate with structured awareness of aspects of the technical environment in which it is running.
 
 This may include controlled access to relevant:
 
@@ -292,7 +318,7 @@ This may include controlled access to relevant:
 - system conditions
 - operational constraints
 
-The project also includes authorised diagnostic research into environmental capability boundaries, unexpected integration paths, and conditions that may affect safe system operation.
+The project also includes authorised diagnostic research into exposed environmental capability boundaries, unexpected integration paths, and conditions that may affect safe system operation.
 
 Such work is limited to explicitly authorised environments and controlled technical scopes.
 
@@ -304,18 +330,20 @@ It does not imply unrestricted system access or permission to bypass external se
 
 As the AERIS runtime grows, storage management and operational integrity are treated as architectural concerns rather than maintenance details.
 
-Research includes:
+Research and engineering work includes:
 
 - preservation of authoritative information
 - safe retention of evidence
 - separation of active and historical data
 - prevention of uncontrolled storage growth
-- runtime recovery
+- runtime resilience and recovery research
 - integrity verification
 - controlled housekeeping
 - protection of critical source records
 
-The project aims to ensure that long-running operation does not degrade provenance, reliability, or evidence quality.
+Some of these mechanisms are active runtime foundations, while others remain architecture or implementation targets.
+
+The objective is to ensure that long-running operation does not degrade provenance, reliability, or evidence quality.
 
 ---
 
@@ -368,23 +396,36 @@ Controlled evaluation may compare active mechanisms with altered, removed, or pl
 
 The purpose is to determine what the surrounding architecture demonstrably contributes.
 
+Causal evidence is treated as mechanism-specific and does not automatically generalise to the entire AERIS architecture.
+
 Observed behavioural differences are not automatically interpreted as evidence of consciousness, subjective experience, independent will, or personhood.
 
 ---
 
 ## Model-External Architecture
 
-AERIS is designed as a model-external systems architecture.
+AERIS is designed as a surrounding architecture that can operate alongside supported AI models and provider environments.
 
 It is not defined by a single foundation model.
 
-The project investigates operation across changing language models and provider environments while maintaining explicit architectural boundaries around the capabilities supplied by those models.
+The project investigates how system-level functions can remain separable from the underlying learned model while still making controlled use of model capabilities.
 
 Individual models remain responsible for their underlying learned capabilities.
 
-AERIS research focuses on the surrounding system architecture, continuity, memory, interaction, governance, validation, tool use, and controlled integration of those capabilities.
+AERIS research focuses on surrounding architecture such as:
 
-This distinction is important when evaluating AERIS behaviour: a capability demonstrated by the underlying model is not automatically evidence of a capability created by the AERIS architecture.
+- continuity
+- memory
+- interaction
+- governance
+- validation
+- provenance
+- controlled tool use
+- runtime integration
+
+This distinction is important when evaluating AERIS behaviour.
+
+A capability demonstrated by the underlying model is not automatically evidence of a capability created by the AERIS architecture.
 
 ---
 
@@ -409,26 +450,61 @@ AERIS therefore does not use a single project-wide claim of completion.
 
 Claims are limited to the specific component, runtime environment, experiment, and evidence level that has actually been tested.
 
+Historical or experimental artefacts are not automatically counted as current productive runtime capabilities.
+
 ---
 
 ## Current Public Status
 
 At a high level:
 
-**AERIS Web / Cloud**  
-Active research line with a qualified PRE-RC1 reproducibility and bootstrap foundation.
+### AERIS Web / Cloud
 
-**AERIS Portable**  
-Active local runtime and experimental systems platform with validated components across dialogue, memory, project interaction, user interface, speech, evidence handling, and related runtime functions.
+Active research line with a formally qualified PRE-RC1 reproducibility and bootstrap foundation.
 
-**Presence and Embodiment**  
-Active experimental development across visual presence, motion, multimodal interaction, and 3D embodiment.
+This status concerns the corresponding Web / Cloud line and does not imply equivalent validation of other AERIS runtime environments.
 
-**Cognitive Heartbeat and Extended Agency**  
-Active research area with existing infrastructure and controlled experimental components. Continuous unrestricted autonomous operation is not currently claimed.
+### AERIS Portable
 
-**Scientific Validation**  
-Ongoing. Results are reported at the level supported by the corresponding evidence.
+Active local runtime and experimental systems platform.
+
+Validated or operational components exist across areas including:
+
+- dialogue
+- memory storage and retrieval pathways
+- project interaction
+- browser-based user interfaces
+- speech
+- evidence handling
+- state and runtime functions
+
+Other Portable capabilities remain experimental, partially integrated, architecture-level, or planned.
+
+### Curiosity and Initiative
+
+A persistent open-question and revisit mechanism has been implemented and tested.
+
+Broader agency selection, responsibility arbitration, and autonomous action remain research and development areas.
+
+### Presence and Embodiment
+
+2D presence and substantial experimental 3D, rigging, rendering, and motion work exist within the project.
+
+Different embodiment candidates have different validation levels, and no blanket production-readiness claim is made for the complete 3D embodiment line.
+
+### Cognitive Heartbeat and Extended Agency
+
+Heartbeat-related control infrastructure and supporting components exist.
+
+Continuous unrestricted autonomous operation is not currently claimed.
+
+Responsibility-driven autonomous tool use and broader provisional autonomy remain research targets.
+
+### Scientific Validation
+
+Ongoing.
+
+Results are reported at the level supported by the corresponding evidence.
 
 ---
 
