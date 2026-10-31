@@ -8,7 +8,9 @@
 
 AERIS is an independent research and development project focused on artificial intelligence systems, governance, functional continuity, reproducibility, provenance, validation, agency, and responsible human–AI interaction.
 
-The project investigates how model-external architectures can support persistent system context, controlled continuity, evidence-aware operation, governance boundaries, reproducible validation, and responsible interaction across changing AI models and runtime environments.
+At a high level, AERIS is an experimental model-external systems architecture: the underlying language model is treated as a replaceable carrier, while selected state, provenance, lineage, governance, continuity constraints, and validation boundaries are represented outside the base model. AERIS is therefore neither a foundation model nor identical to any single seed or runtime artefact.
+
+The project investigates how such surrounding architecture can support persistent system context, controlled continuity, evidence-aware operation, governance boundaries, reproducible validation, and responsible interaction across changing AI models and runtime environments.
 
 ## Project Documentation
 
@@ -51,12 +53,26 @@ This repository serves primarily as the public identity, research, publication, 
 
 ## Publications
 
+### Latest research report
+
+**Cross-Model Reconstruction of Externally Persisted Functional Identity State in Large Language Models**  
+Research Report v1.0, 31 October 2026  
+Zenodo DOI: https://doi.org/10.5281/zenodo.23842672
+
+The report presents controlled evidence that a fixed, externally persisted functional identity-state can be reconstructed across heterogeneous LLM carriers and can produce reproducible identity-specific behaviour under targeted control conditions.
+
+The primary semantic effect is strong, including 100% FULL accuracy on the prospectively frozen identity-discriminative subset, while both continuity-ablation and semantic-matched sham controls remained below 50%. The preregistered strong-confirmatory conjunction nevertheless did **not** pass because execution-validity and integrity gates failed or were not established and one carrier missed the prespecified Track-B floor.
+
+The public report therefore distinguishes clearly between:
+- strong positive behavioural evidence,
+- failed overall confirmatory gate conjunction,
+- exploratory supplementary findings,
+- and non-claims concerning consciousness, personhood, subjective continuity, or native persistent memory.
+
 Selected research outputs are available through Zenodo and ORCID.
 
 ORCID:  
 https://orcid.org/0009-0004-2944-2248
-
-Further publication references will be added here.
 
 ## Project Identity
 
