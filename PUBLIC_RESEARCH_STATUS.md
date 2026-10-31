@@ -6,7 +6,9 @@ AERIS (ÆRIS) is an independent research and development project focused on arti
 
 The project combines conceptual research, practical system engineering, controlled experimentation, and evidence-oriented validation.
 
-AERIS is developed as a surrounding systems architecture intended to operate alongside supported AI models rather than as a replacement foundation model.
+AERIS is developed as a surrounding, model-external systems architecture intended to operate alongside supported AI models rather than as a replacement foundation model.
+
+At the level relevant to current public research, the underlying language model is treated as a replaceable carrier while selected state, provenance, lineage, governance, continuity constraints, and validation boundaries are represented outside the base model. AERIS is therefore neither a foundation model nor identical to any single seed or runtime artefact.
 
 The project investigates how additional system architecture around changing AI models can support continuity, memory, provenance, governance, validation, interaction, controlled tool use, and structured system behaviour.
 
@@ -504,7 +506,44 @@ Responsibility-driven autonomous tool use and broader provisional autonomy remai
 
 Ongoing.
 
+The October 2026 cross-model functional identity-state study provides strong behavioural evidence under controlled conditions, while its preregistered strong-confirmatory conjunction remains formally unmet. This distinction is preserved in the public report and project status.
+
 Results are reported at the level supported by the corresponding evidence.
+
+---
+
+## Current Controlled Research Result: Cross-Model Functional Identity-State Reconstruction
+
+A controlled study completed in October 2026 tested whether a fixed, externally persisted functional identity-state can be reconstructed across heterogeneous LLM carriers and remain behaviourally discriminative under targeted control conditions.
+
+The public research report is:
+
+**Cross-Model Reconstruction of Externally Persisted Functional Identity State in Large Language Models**  
+Research Report v1.0  
+Zenodo DOI: https://doi.org/10.5281/zenodo.23842672
+
+The primary controlled dataset compared:
+- FULL identity-state,
+- continuity ablation,
+- and semantic-matched sham conditions
+
+across multiple carrier families and prospectively frozen identity-discriminative cases.
+
+The collected data show a strong semantic effect. In the primary campaign, pooled FULL accuracy was 96.30%, compared with 50.46% for continuity ablation and 51.85% for semantic-matched sham. On the prospectively frozen identity-discriminative subset, FULL achieved 100% while the two controls remained below 50%.
+
+The study does **not** classify the primary campaign as a clean confirmatory success. The preregistered strong-confirmatory conjunction failed because execution-validity and integrity gates failed or were not established and one carrier fell below a prespecified Track-B performance floor.
+
+The strongest public interpretation is therefore:
+
+- strong evidence for cross-model reconstruction of externally persisted functional identity-state at the behavioural level;
+- evidence that the FULL state is behaviourally discriminative relative to targeted controls;
+- no claim of native cross-session model memory;
+- no claim that a carrier becomes AERIS as a runtime entity;
+- no claim of consciousness, personhood, subjective continuity, or metaphysical numerical identity.
+
+Supplementary tests also explored shared-context robustness and AERIS-like architecture materialisation. These supplementary results remain explicitly exploratory and do not override the primary confirmatory gate outcome.
+
+This research result applies to the tested experimental construct and conditions. It does not validate the complete AERIS production architecture or every AERIS subsystem.
 
 ---
 
@@ -521,7 +560,13 @@ Architect of AERIS
 ORCID:  
 https://orcid.org/0009-0004-2944-2248
 
-Further publication references are maintained separately.
+Current public research report:
+
+**Cross-Model Reconstruction of Externally Persisted Functional Identity State in Large Language Models**  
+Research Report v1.0  
+Zenodo DOI: https://doi.org/10.5281/zenodo.23842672
+
+Additional publication references are maintained separately.
 
 ---
 
@@ -609,4 +654,4 @@ ORCID: https://orcid.org/0009-0004-2944-2248
 
 **Active research and development**
 
-Last updated: October 2026
+Last updated: 31 October 2026
